@@ -1,36 +1,13 @@
-# Titanic Survival Prediction 🚢
+# ML Projects
 
-## 📌 Project Overview
-This project predicts whether a passenger survived the Titanic disaster using machine learning.  
-It demonstrates an end‑to‑end workflow: data cleaning, preprocessing, model training, evaluation, and insights.
+## 1. Titanic Survival Prediction (Classification)
+- Cleaned missing values (Age, Embarked, Cabin).
+- Compared Logistic Regression (~78% accuracy) vs Random Forest (~82% accuracy).
+- Key features: Sex, Pclass, Fare, Age.
 
-## 📂 Dataset
-- Source: [Kaggle Titanic Dataset](https://www.kaggle.com/datasets/elyamadad/titanic-dataset)
-- Columns include passenger class, sex, age, siblings/spouses, parents/children, fare, cabin, and embarkation port.
+## 2. House Prices Prediction (Regression)
+- Kaggle dataset: [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
+- Cleaned missing values with median/mode.
+- Compared Linear Regression (~0.7 R²) vs Random Forest (~0.85–0.9 R²).
+- Key features: OverallQual, GrLivArea, GarageCars, TotalBsmtSF, YearBuilt.
 
-## ⚙️ Steps
-1. **Data Cleaning**
-   - Filled missing `Age` values with median.
-   - Filled missing `Embarked` values with most frequent category.
-   - Dropped `Cabin` (too many missing values).
-2. **Feature Engineering**
-   - One‑hot encoded categorical features (`Sex`, `Embarked`).
-   - Scaled numeric features (`Age`, `Fare`, etc.).
-3. **Modeling**
-   - Baseline: Logistic Regression.
-   - Improved: Random Forest Classifier.
-4. **Evaluation**
-   - Compared accuracy, precision, recall, and F1‑score.
-   - Random Forest performed better than Logistic Regression.
-5. **Insights**
-   - Key features influencing survival: `Sex`, `Pclass`, `Fare`, `Age`.
-
-## 📊 Results
-- Logistic Regression Accuracy: ~78%
-- Random Forest Accuracy: ~82%
-- Random Forest captured nonlinear relationships and gave better performance.
-
-## 🚀 How to Run
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/adil-1522/ml-project.git
