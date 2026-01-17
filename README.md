@@ -1,13 +1,45 @@
-# ML Projects
+# 🧠 Machine Learning Projects
 
-## 1. Titanic Survival Prediction (Classification)
-- Cleaned missing values (Age, Embarked, Cabin).
-- Compared Logistic Regression (~78% accuracy) vs Random Forest (~82% accuracy).
-- Key features: Sex, Pclass, Fare, Age.
+Welcome to my collection of machine learning projects!  
+This repo showcases different ML techniques — **classification, regression, and decision trees** — applied to real datasets.
 
-## 2. House Prices Prediction (Regression)
-- Kaggle dataset: [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
-- Cleaned missing values with median/mode.
-- Compared Linear Regression (~0.7 R²) vs Random Forest (~0.85–0.9 R²).
-- Key features: OverallQual, GrLivArea, GarageCars, TotalBsmtSF, YearBuilt.
+---
+
+## 📊 1. Titanic Survival Prediction (Classification)
+- **Dataset**: [Titanic Dataset](https://www.kaggle.com/c/titanic)
+- **Goal**: Predict passenger survival.
+- **Techniques**: Logistic Regression, Random Forest.
+- **Results**: Accuracy ~78–82%.
+- **Key Features**: Sex, Pclass, Fare, Age.
+
+---
+
+## 🏠 2. House Prices Prediction (Regression)
+- **Dataset**: [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+- **Goal**: Predict house sale prices.
+- **Techniques**: Linear Regression, Random Forest Regressor.
+- **Results**: R² ~0.85–0.9.
+- **Key Features**: OverallQual, GrLivArea, GarageCars, TotalBsmtSF, YearBuilt.
+
+---
+
+## 💳 3. Loan Prediction (Decision Trees)
+- **Dataset**: [Loan Prediction Dataset](https://www.kaggle.com/datasets/aboodai/loan-prediction-dataset)
+- **Goal**: Predict loan approval / customer segment.
+- **Techniques**: Decision Tree Classifier (max_depth=5).
+- **Results**: Accuracy ~75–80%.
+- **Key Predictors**: Credit Score, Annual Income, Loan Amount, Spending Score.
+
+---
+
+## 🚀 Skills Demonstrated
+- Data Cleaning (handling missing values, encoding categorical features).
+- Model Training & Evaluation (accuracy, R², confusion matrix, classification report).
+- Visualization (decision tree plots, feature importance).
+- GitHub Workflow (organized repo, documentation).
+
+---
+
+## 📂 Repo Structure
+
 
